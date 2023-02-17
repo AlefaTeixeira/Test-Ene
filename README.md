@@ -14,11 +14,6 @@ Os testes Web e API estão no mesmo diretório: Cypress/e2e/Amazon -> para Web
                                               Cypress/e2e/PetStore -> para API.</strong>
 </p>
 
-<span align="center">
-
-##  Seja bem vindo! 👋 
-
-</span>
 
 ![Screenshot_1](https://user-images.githubusercontent.com/47541718/219797913-2bcd7350-fe4d-42f4-a55d-169fcd809c9a.png)
 ![Screenshot_2](https://user-images.githubusercontent.com/47541718/219798055-46e09a45-20cc-49c7-9e81-faeb60be4560.png)
