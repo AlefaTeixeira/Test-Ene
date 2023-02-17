@@ -24,7 +24,7 @@ describe ('Amazon - Busca por produtos', () => {
 
     it('Busca vazia', () => {
       cy.contains(/Ofertas do dia/gi).should('be.visible');
-      cy.get('#nav-search-submit-button').click();
-      cy.contains(/Ofertas do dia/gi).should('be.visible');
+      cy.get('#nav-search-submit-button').click(); // Clica na pesquisa sem buscar por algum produto
+      cy.contains(/Ofertas do dia/gi).should('be.visible'); //Verifica se o mesmo continua na mesma pagina
     });
   });
