@@ -1,4 +1,4 @@
-describe('', ()=>{
+describe('Cadastramento de animal, teste de métodos GET, POST, PUT e DELETE', ()=>{
     it('Checa o status do PET', ()=>{
         cy.fixture('pet').then((payload)=>{
         cy.petStatus(payload)

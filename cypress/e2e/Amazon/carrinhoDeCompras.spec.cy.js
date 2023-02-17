@@ -6,9 +6,9 @@ describe ('Amazon - Adição de produtos ao carrinho', () => {
   });
 
   it('Adicionando um produto especifico ao carrinho', () => {
-    cy.get('#twotabsearchtextbox').type('É Assim que Acaba: 1');
+    cy.get('#twotabsearchtextbox').type('Monitor Gamer TGT Altay T3, 23.8 Pol');
     cy.get('#nav-search-submit-button').click();
-    cy.contains(/É Assim que Acaba: 1/gi).click();
+    cy.get('[data-asin="B0BT83PRG8"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-spacing-base').click();
     cy.contains(/Adicionar ao carrinho/gi).click();
     cy.contains('Adicionado ao carrinho').should('be.visible');
     cy.get('#sw-gtc > span > a').click();
