@@ -11,7 +11,7 @@ Próximo passo: executar o comando via terminal: npm install
 Por fim, rodar o comando: npx cypress open, onde o mesmo criará algumas dependências e abrirá o navegador para execução.
 
 Os testes Web e API estão no mesmo diretório: Cypress/e2e/Amazon -> para Web
-                                              Cypress/e2e/PetStore -> para API. Após rodar o comando npx cypress open, segue os passos abaixo</strong>
+                                              Cypress/e2e/PetStore -> para API. Após rodar o comando npx cypress open, segue os passos abaixo: </strong>
 </p>
 
 
