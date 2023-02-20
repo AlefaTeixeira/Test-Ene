@@ -26,9 +26,9 @@ Os testes Web e API estão no mesmo diretório: Cypress/e2e/Amazon -> para Web
 
 
 <p align="center">
-  💼 Escolha ferramenta: <strong>escolhi o Cypress para as automações devido a familiriade com o mesmo.</strong>
+  💼 Escolha ferramenta: <strong>escolhi o Cypress para as automações devido a familiaridade com o mesmo.</strong>
 </p>
 
 <p align="center">
-  👩‍💻  Execucão: <strong>o Teste de API dentro da pasta pet-1, arquivo pet.spec.cy.js é o mais completo, visto que foram utilizados todos os métodos para teste. Foram criados comandos customizados, ou seja, a request estão numa pasta a parte, cypress/support/commands.js, também estão sendo utilizados arquivos Json da pasta fixtures. Por fim, dois pontos, casos de testes foram adicionados na pasta cypress/features e foi adicionado na pasta bug uma sugestão de melhoria a respeito do site da Amazon </strong>
+  👩‍💻  Execucão: <strong>o Teste de API dentro da pasta pet-1, arquivo pet.spec.cy.js é o mais completo, visto que foram utilizados todos os métodos para teste. Foram criados comandos customizados, ou seja, a request estão numa pasta a parte, cypress/support/commands.js, também estão sendo utilizados arquivos Json da pasta fixtures. Por fim, casos de testes foram adicionados na pasta cypress/features, dicas de como executar e vídeo de um teste rodando estão na pasta image_tests e foi adicionado na pasta bug uma sugestão de melhoria a respeito do site da Amazon </strong>
 </p>
